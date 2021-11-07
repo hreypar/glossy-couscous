@@ -8,6 +8,19 @@ report: "report/workflow.rst"
 singularity: "docker://continuumio/miniconda3"
 
 
+# steps I need
+#
+# Download GTEx data and format (raw gene expression matrix)
+# Download GDC data and format (raw gene expression matrix)
+# Normalize gene expression matrices
+# Format normalized gene expression matrices to input to ARACNe
+# Run ARACNe on normalized gene expression matrices
+# ## what is the input that ARACNe requires? 
+# ## which parameters must be set?
+# Perform Exploratory Data Analysis on ARACNe networks
+# ## what does ARACNe networks (output) look like?
+# Compare GTEx and GDC networks
+
 rule all:
     input:
         # The first rule should define the default target files
@@ -16,3 +29,5 @@ rule all:
 
 include: "rules/common.smk"
 include: "rules/other.smk"
+
+
