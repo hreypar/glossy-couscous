@@ -1,0 +1,18 @@
+# stuff to do #
+
+- create PEP sample table
+- create config file
+
+- create rule to download TCGA data 
+- create rule to format it
+- create rule to run ARACNE
+- create rule to paint networks
+
+- create rule to normalize TCGA data
+- create rule to do differential expression
+
+- create rule to donwload Hi-C data
+- create rule to run hi-C pro on hi-c data
+- create rule to analyse compartment switch
+- create rule to analyse TAD boudnary loss  
+
